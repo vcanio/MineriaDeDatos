@@ -19,11 +19,11 @@ Este proyecto realiza un **Análisis Exploratorio de Datos** exhaustivo sobre el
 * Validación de la integridad del dataset mediante la búsqueda y confirmación de ausencia de valores nulos.
 * Generación de resúmenes estadísticos iniciales para comprender la distribución de resultados y los equipos con mayor presencia histórica.
 
-### 3. Limpieza y Transformación (Feature Engineering)
+### 3. Limpieza y Transformación
 * **Procesamiento Temporal:** Conversión de la columna `MatchDate` a formato *datetime* y extracción de nuevas variables de Año y Mes para análisis de tendencias estacionales.
 * **Codificación de Datos:** Aplicación de `LabelEncoder` para transformar resultados de texto (H, A, D) en valores numéricos, permitiendo su procesamiento en modelos estadísticos.
 
-### 4. Análisis Exploratorio de Datos (EDA)
+### 4. Análisis Exploratorio de Datos
 * **Análisis de Resultados:** Visualización de la probabilidad histórica de victoria local, visitante y empate mediante gráficos de pastel y barras.
 * **Dinámica del Juego:** Estudio del impacto del resultado al medio tiempo en el desenlace final del partido.
 * **Evolución Histórica:** Seguimiento de la producción de goles y la efectividad de la localía a lo largo de las décadas (temporada 2000/01 a 2024/25).
